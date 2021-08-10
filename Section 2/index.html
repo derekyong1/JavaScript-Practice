@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Module demo 2</title>
+    <script type="module" src="script.js" defer></script> 
+    <!-- deter will let the HTML parsing and any JS loading to be complete then excute the JS. Thus, it takes less time to render -->
+    <script type="module" src="backpack.js"></script>
+    <!-- Setting the type to be module makes it to be defer -->
+  </head>
+  <body></body>
+</html>
+
+<!-- Creating modules are not ideal, because you cannot reference objects in the browser. On the other hand later in the course, there will be classes that will be better to use than modules. -->
